@@ -16,6 +16,7 @@ export type Produto = {
 };
 
 export type Categoria = {
+  value(value: any): unknown;
   id: string;
   nome: string;
   produtos: Produto[];
