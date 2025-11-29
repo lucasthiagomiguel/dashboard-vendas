@@ -1,0 +1,106 @@
+{
+  "categorias": [
+    {
+      "id": "c1",
+      "nome": "Eletrônicos",
+      "produtos": [
+        {
+          "id": "p1",
+          "nome": "Notebook",
+          "marcas": [
+            {
+              "id": "m1",
+              "nome": "Marca A",
+              "vendas": [
+                { "mes": "Jan", "valor": 1200 },
+                { "mes": "Fev", "valor": 900 },
+                { "mes": "Mar", "valor": 1600 },
+                { "mes": "Abr", "valor": 1100 }
+              ]
+            },
+            {
+              "id": "m2",
+              "nome": "Marca B",
+              "vendas": [
+                { "mes": "Jan", "valor": 800 },
+                { "mes": "Fev", "valor": 1000 },
+                { "mes": "Mar", "valor": 1400 },
+                { "mes": "Abr", "valor": 1300 }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p2",
+          "nome": "Smartphone",
+          "marcas": [
+            {
+              "id": "m3",
+              "nome": "Marca C",
+              "vendas": [
+                { "mes": "Jan", "valor": 2000 },
+                { "mes": "Fev", "valor": 2100 },
+                { "mes": "Mar", "valor": 1900 },
+                { "mes": "Abr", "valor": 2200 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "nome": "Roupas",
+      "produtos": [
+        {
+          "id": "p3",
+          "nome": "Camiseta",
+          "marcas": [
+            {
+              "id": "m4",
+              "nome": "Marca D",
+              "vendas": [
+                { "mes": "Jan", "valor": 400 },
+                { "mes": "Fev", "valor": 450 },
+                { "mes": "Mar", "valor": 500 },
+                { "mes": "Abr", "valor": 600 }
+              ]
+            },
+            {
+              "id": "m5",
+              "nome": "Marca E",
+              "vendas": [
+                { "mes": "Jan", "valor": 350 },
+                { "mes": "Fev", "valor": 300 },
+                { "mes": "Mar", "valor": 320 },
+                { "mes": "Abr", "valor": 400 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "nome": "Alimentos",
+      "produtos": [
+        {
+          "id": "p4",
+          "nome": "Arroz",
+          "marcas": [
+            {
+              "id": "m6",
+              "nome": "Marca F",
+              "vendas": [
+                { "mes": "Jan", "valor": 150 },
+                { "mes": "Fev", "valor": 180 },
+                { "mes": "Mar", "valor": 170 },
+                { "mes": "Abr", "valor": 200 }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
